@@ -54,7 +54,7 @@ class CustomCard extends StatelessWidget {
                         note.delete();
                         BlocProvider.of<FavCubit>(context).fetchAllFav();
                       },
-                      icon: const Icon(Icons.delete, size: 28),
+                      icon:  Icon(Icons.delete, size: 28,color: Colors.grey.shade300,),
                     ),
                   ],
                 ),

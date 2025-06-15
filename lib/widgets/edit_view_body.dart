@@ -45,7 +45,7 @@ class _EditViewBodyState extends State<EditViewBody> {
                   BlocProvider.of<FavCubit>(context).fetchAllFav();
                   Navigator.pop(context);
                 },
-                icon: const Icon(Icons.check, size: 28),
+                icon: const Icon(Icons.check, size: 28, color: Colors.green,),
               ),
             ],
           ),
